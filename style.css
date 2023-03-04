@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+.active{
+    background-color: #a885acbb;
+    border-radius: 15px;
+    color: rgb(253, 249, 249);
+} 
+body {
+    background-color: #eff1f1;
+    font-size: 85%;
+    font-family: verdana;
+    line-height: 1.5;
+    }
+   
+   .body {
+    margin:0 auto;
+    width: 70%;
+    clear: both;
+    }
+    hr{
+        border: 0;
+        background: #dedede;
+        height: 2px;
+    }
+    .atasheader img{
+        margin-top: 5px;
+        border-radius: 8px;
+    }
+    .atasheader{
+        text-align: center;
+        color: #232323;
+    }
+    
+    .atasheader .judul{
+        font-size: 19pt;
+    }
+    .atasheader .deskripsi{
+        font-size: 12pt;
+    }
+   .mainheader nav{
+    background-color: #e0b0b0;
+    height: 62px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-size: 11pt;
+    }
+   
+   .mainheader a {
+    text-decoration: none;
+    display: inline-block;
+    }
+   
+   .mainheader nav ul li {
+    float: left;
+    display: inline;
+    }
+   
+   .mainheader nav ul {
+    margin:0 auto;
+    list-style:none;
+    }
+   
+   .mainheader nav a:link, .mainheader nav a:visited {
+    color: #465856;
+    padding: 20px 55px;
+    }
+   
+   .mainheader nav a:hover, .mainheader nav a:active{
+    background-color: #ffffff;
+    text-decoration: underline;
+    transition: 0.5s; 
+    }
+   .mainheader nav .home a:link, .mainheader nav .home a:visited {
+    background-color: #d7a8a8;
+    }
+    
+   .mainheader nav ul li a{
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    }
+   
+   .maincontent {
+     border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    }
+   
+   .content a:link , a{
+    text-decoration: none;
+    color: #dca99c;
+    }
+   
+   .content {
+    width: 70%;
+    float: left;
+    }
+   
+   .content1 {
+    background-color: #Fff;
+    border-radius: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+    }
+   
+    .content2 {
+    background-color: #Fff;
+    border-radius: 8px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+    }
+    
+    .sidebar {
+        float:right;
+        width: 240px;
+    }
+
+    .sidebar1 {
+    width: 24%;
+    background-color: #FFF;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 2% 2%;
+    margin-bottom: 2%;
+    }
+
+    .sidebar1 a:link , a{
+        text-decoration: none;
+        color: #1f1a1c;
+        }
+    
+    .sidebar1 .img{
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+   .sidebar2 {
+    width: 24%;
+    background-color: #FFF;
+    float: left;
+    margin-left: 2%;
+    border-radius: 2px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 2% 2%;
+    margin-bottom: 2%;
+    }
+   
+   .mainfooter {
+    width: 100%;
+    height: 50px;
+    float:left ;
+    margin: 2% 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: #666;
+    }
+   
+   .mainfooter p {
+    color: #FFF;
+    width: 92%;
+    margin-left: 3%;
+    }
+    .mainfooter a:link , a{
+        text-decoration: none;
+        color: #dca99c;
+        }
+   @media only screen and (min-width: 150px) and (max-width: 600px) {
+   
+   .body {
+    width: 90%;
+    } 
+   
+   .mainheader nav{
+    height: 100px;
+    }
+   
+   .mainheader a {
+    text-decoration: none;
+    }
+   
+   .mainheader nav .home a:link, .mainheader nav .home a:visited {
+     width: 80%;
+    }
+   
+   .mainheader nav a:hover, .mainheader nav a:active{
+    width: 80%;
+    transition: 1s;
+    }
+   
+   .mainheader nav ul li {
+    width: 100%;
+    text-align: center;
+    } 
+   
+   .mainheader nav ul {
+    margin:0 auto;
+    list-style:none;
+    padding-left: 0px;
+    }
+   
+   .content1 {
+    overflow: hidden;
+   
+    }
+   .content {
+    width: 80%;
+    }
+   
+   .sidebar1 {
+    width: 80%;
+    margin-left: 0px;
+    }
+
+    .sidebar1 .img{
+        width: 20%;
+        margin-top: 3px;
+        border-radius: 3px;
+    }
+
+    .sidebar2 {
+    width: 80%;
+    margin-left: 0px;
+    }
+    }
+    @media only screen and (min-width: 150px) and (max-width: 600px)
+    body {
+        //Tampilan normal web
+        width: 80%;
+        margin:0 auto;
+        clear: both;
+       }
+       
+       @media only screen and (min-width: 150px) and (max-width: 600px) {
+        //Tampilan web browser lebar 150px dan panjang 600px max
+        body {
+        width: 100%;
+        }
+       }
+
+       
